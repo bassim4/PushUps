@@ -12,10 +12,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void pushUp(){
+    public void pushUp() {
         //do nothing NUC PC
         //do nothing XPS 12
         //do nothing XPS 12
+        //do nothing NUC PC #2
     }
-
 }
