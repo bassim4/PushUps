@@ -17,5 +17,6 @@ public class MainActivity extends AppCompatActivity {
         //do nothing XPS 12
         //do nothing XPS 12
         //do nothing NUC PC #2
+        //do nothing XPS 12 #2
     }
 }
