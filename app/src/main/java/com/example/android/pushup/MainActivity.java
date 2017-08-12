@@ -19,4 +19,8 @@ public class MainActivity extends AppCompatActivity {
         //do nothing NUC PC #2
         //do nothing XPS 12 #2
     }
+
+    public void doNothing() {
+        //do nothing
+    }
 }
