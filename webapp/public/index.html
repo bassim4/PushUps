@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Shopping List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Home Shopping List</h1>
+    <span id="item-count"></span>
+  </header>
+
+  <main>
+    <section class="add-item-form">
+      <h2>Add Item</h2>
+      <div class="form-row">
+        <input
+          type="text"
+          id="item-name"
+          placeholder="What do you need?"
+          autocomplete="off"
+          maxlength="80"
+        />
+        <select id="item-category">
+          <option value="" disabled selected>Category</option>
+          <option value="Groceries">Groceries</option>
+          <option value="Dairy">Dairy</option>
+          <option value="Meat &amp; Fish">Meat &amp; Fish</option>
+          <option value="Bakery">Bakery</option>
+          <option value="Beverages">Beverages</option>
+          <option value="Snacks">Snacks</option>
+          <option value="Frozen Foods">Frozen Foods</option>
+          <option value="Cleaning Supplies">Cleaning Supplies</option>
+          <option value="Personal Care">Personal Care</option>
+          <option value="Other">Other</option>
+        </select>
+        <button id="add-btn" onclick="addItem()">Add</button>
+      </div>
+      <p id="form-error" class="error hidden"></p>
+    </section>
+
+    <section id="list-section">
+      <div id="empty-state" class="empty-state hidden">
+        <p>The list is empty. Add something above!</p>
+      </div>
+      <div id="categories-container"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "home-shopping-list",
+  "version": "1.0.0",
+  "description": "Shared shopping list for the home",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
